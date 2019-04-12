@@ -19,7 +19,7 @@ class UserTableSeeder extends Seeder
         $user->address = "Ha Noi";
         $user->phone="123456456";
         $user->image="";
-        $user->role= \App\Http\Controllers\RoleConstant::ADMIN;
+        $user->role= \App\Http\Controllers\RoleContant::ADMIN;
         $user->save();
     }
 }

@@ -11,5 +11,5 @@ namespace App\Http\Controllers;
 
 interface RoleContant
 {
-
+const ADMIN =1;
 }
